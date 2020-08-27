@@ -245,11 +245,11 @@ packages:
         - Ranged-sets
 
     "Travis Athougies <travis@athougies.net> @tathougies":
-        - beam-core < 0 # via vector-sized-1.4.0.0
-        - beam-migrate < 0 # via dependent-map-0.3 & dependent-sum-0.6.2.0
-        - beam-mysql < 0 # via beam-core
-        - beam-postgres < 0 # via beam-core
-        - beam-sqlite < 0 # via beam-core
+        - beam-core
+        - beam-migrate
+        - beam-mysql
+        - beam-postgres
+        - beam-sqlite
 
     "Fraser Murray <fraser.m.murray@gmail.com @intolerable":
         - stitch < 0 # GHC 8.4 via base-4.11.1.0
